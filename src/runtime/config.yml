@@ -1,0 +1,22 @@
+# RELEASE DEBUG
+mode: DEBUG
+# 服务器id
+id: 1
+# 房间数量
+roomSize: 4
+#房间缓存的最近聊天消息条目树
+chatCashSize: 50
+# 配置文件的根目錄
+runtime: "./runtime"
+# web资源路径
+static: "runtime/www/static"
+# 服务器等级(暂时没用)
+level: 1
+# 输出日志文件
+logLocalPath: "./output/log"
+# 日志文件等级
+logLevel: "debug"
+#text,json(default:json)
+logFmt: "text"
+#http服务端口
+httpAddr: ":8080"
