@@ -284,8 +284,8 @@
                     $("#chatpage").attr("style","display:none;");
                     clearMsg();
 
-                    // ws = new WebSocket("ws://" + document.location.host + "/ws");
-                    ws = new WebSocket("ws://127.0.0.1:8080/chat");
+                    ws = new WebSocket("ws://" + document.location.host + "/chat");
+                    // ws = new WebSocket("ws://127.0.0.1:8080/chat");
                     // 连接webSocket
                     ws.onopen = function(evt) {
                         console.log("Connection open ...");
